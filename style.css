@@ -1,0 +1,145 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:18px;
+    color:#FFFAF9;
+    margin-bottom:60px;
+}
+.navlinks{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+}
+
+.navbar li{
+    margin:30px;
+}
+
+.navlinks a{ 
+    text-decoration:none;
+    color:#ffffff;
+
+}
+
+.home_container{
+    display:flex;
+    flex-wrap:wrap !important;
+    justify-content: space-between;
+    color:#fffaf9;
+}
+
+.home_left{
+    width:60%;
+}
+.home_left h3 {
+    font-size: 40px;
+    font-weight:bolder;
+    line-height: 50px;
+}
+.home_left h1{
+    font-size: 70px;
+    font-weight: bold;
+    line-height:100px;
+}
+
+.home_left h2{
+    text-decoration:none;
+    color:rgb(235, 253, 237);
+    font-size: 100px;
+    padding: 10px;
+}
+.home_right {}
+
+.profile {
+    border-radius:50%;
+    width: 350px;
+    height:350px;
+}
+body {
+    background: linear-gradient(to right,#191654,#43c6ac);
+    font-family: 'Montserrat';
+    color:#ffffff;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.about{
+    color:#ffffff;
+}
+.about_heading{
+    width:90%;
+    
+}
+.heading{
+    color: #FFFAF9;
+    font-size: 50px;
+    font-weight: bolder;
+    line-height:90px;
+}
+
+.abt{
+    font-size:20px;
+    line-height: 30px;
+    
+}
+
+.education{
+    padding-left:100px;
+    margin-top:10px;
+    line-height:30px;
+}
+.ed{
+    font-weight:bold;
+    list-style-type:square;
+}
+.ed_sub{
+    font-weight:normal;
+    padding-left: 30px;
+    list-style-type:disc;
+}
+.skill_box {
+    width: 130px;
+    padding: 4px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.skills_container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    width: 100%;
+    margin-top:20px;
+}
+.contact_box{
+    padding:4px;
+    display: flex;
+    flex-direction: row;
+
+}
+.contact_box p{
+    padding:8px;
+}
+.contact_box a{
+    color:#FFFAF9
+}
+.contact_box img {
+    width:30px;
+    height:30px;
+}
+
+
